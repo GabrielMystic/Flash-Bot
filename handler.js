@@ -1342,7 +1342,7 @@ export async function participantsUpdate({ id, participants, action }) {
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', await this.getName(user)) //.replace('@user', '@' + user.split('@')[0])
                             let apii = await this.getFile(pp)
 this.sendButton(id, wm, text, apii.data, [[(action == 'add' ? lenguajeGB.smsCont13() : lenguajeGB.smsCont14()), (action == 'add' ? '.s' : '.s')], [' 𝙄𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪 | 𝙂𝙤 𝙈𝙚𝙣𝙪', `.menu`]], null, {mentions: this.parseMention(text)})
-//this.sendHydrated(id, text, groupMetadata.subject, apii.data, 'https://github.com/asokfnasasf/Lightning-Bot', '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩', null, null, [
+//this.sendHydrated(id, text, groupMetadata.subject, apii.data, 'https://github.com/GabrielMystic/Flash-Bot', '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩', null, null, [
 //[(action == 'add' ? '𝙎𝙚 𝙪𝙣𝙞𝙤 🥳 | 𝙃𝙞!!' : '𝙎𝙚 𝙛𝙪𝙚 𝙪𝙣 𝙍𝙖𝙣𝙙𝙤𝙢 🧐 | 𝘽𝙮𝙚'), '.s'], [' 𝙄𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪 | 𝙂𝙤 𝙈𝙚𝙣𝙪', '/menu']], '', { mentions: [user]})
 }}}
 		    
