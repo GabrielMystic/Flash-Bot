@@ -8,13 +8,13 @@ if (!who) throw `${ag}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼
 let txt = text.replace('@' + who.split`@`[0], '').trim()
 if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀 𝗙𝗟𝗔𝗦𝗛𝗖𝗢𝗜𝗡𝗦\n\n𝙀𝙉𝙏𝙀𝙍 𝙏𝙃𝙀 𝙉𝙐𝙈𝘽𝙀𝙍 𝙊𝙁 𝗙𝗟𝗔𝗦𝗛𝗖𝗢𝗜𝗡𝗦`
 if (isNaN(txt)) throw `${mg}𝙎𝙄𝙉 𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎, 𝙎𝙊𝙇𝙊 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎\n\n𝙉𝙊 𝙎𝙔𝙈𝘽𝙊𝙇𝙎, 𝙅𝙐𝙎𝙏 𝙀𝙉𝙏𝙀𝙍 𝙉𝙐𝙈𝘽𝙀𝙍𝙎`
-let lightcoins = parseInt(txt)
-let money = lightcoins
-let pjk = Math.ceil(lightcoins * pajak)
+let flashcoins = parseInt(txt)
+let money = flashcoins
+let pjk = Math.ceil(flashcoins * pajak)
 money += pjk
 if (money < 1) throw `${mg}𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝙈𝙄𝙉𝙄𝙈𝙊 𝘿𝙀 𝗙𝗟𝗔𝗦𝗛𝗖𝗢𝗜𝗡𝗦 𝙀𝙎 *1*\n\n𝙏𝙃𝙀 𝙈𝙄𝙉𝙄𝙈𝙐𝙈 𝙉𝙐𝙈𝘽𝙀𝙍 𝙁𝙍𝙊𝙈 𝗙𝗟𝗔𝗦𝗛𝗖𝗢𝗜𝗡𝗦 𝙄𝙎 *1*`
 let users = global.db.data.users
-users[who].money += lightcoins
+users[who].money += flashcoins
 
 conn.sendHydrated(m.chat, `╭━━━[ 𝗙𝗟𝗔𝗦𝗛𝗖𝗢𝗜𝗡𝗦 ⚡ ]━━━⬣\n┃\n┃ღ *PARA | FOR:*\n┃ღ *${text}*\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ღ *SE LE AÑADIÓ | NOW YOU HAVE*\n┃ღ *${flashcoins} FlashCoin(s)* ⚡\n┃\n╰━━━━━━━━━━━━━━⬣`, wm, null, md, '𝗙𝗹𝗮𝘀𝗵-𝗕𝗼𝘁', null, null, [
 [' 𝙈𝙚𝙣𝙪 𝘼𝙫𝙚𝙣𝙩𝙪𝙧𝙖 | 𝙍𝙋𝙂 ', '.rpgmenu'],
