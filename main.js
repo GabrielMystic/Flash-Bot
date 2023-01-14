@@ -66,14 +66,14 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-global.authFile = `LightningBotSession`
+global.authFile = `FlashBotSession`
 const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile)
 
 const connectionOptions = {
 printQRInTerminal: true,
 auth: state,
 logger: P({ level: 'silent'}),
-browser: ['Lightning-Bot','Edge','1.0.0']
+browser: ['Flash-Bot','Edge','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
