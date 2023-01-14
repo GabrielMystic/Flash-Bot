@@ -109,7 +109,7 @@ global.vs = '1.5.1 ⚡'
 global.version = vs
 
 global.gt = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 ⚡'
-global.lightningbot = gt
+global.flashbot = gt
 
 global.yt = ''
 global.youtube = yt
@@ -118,7 +118,7 @@ global.ig = 'https://www.instagram.com/gabrielacosta_15'
 global.gabrielig = ig
 
 global.md = 'https://github.com/GabrielMystic/Flash-Bot'
-global.lightningbot = md
+global.flashbot = md
 
 global.nna = 'https://chat.whatsapp.com/Km33ErOqSis1ELpKaHA8u9' // Flash-Bot ⚡
 global.nna2 = ''
