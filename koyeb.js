@@ -5,11 +5,11 @@ RUN sudo dnf -y update &&\
     sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
     sudo dnf clean all -y
 
-RUN git clone https://github.com/asokfnasasf/LightningBot
+RUN git clone https://github.com/GabrielMystic/Flash-Bot
 
-WORKDIR /root/Lightning-Bot
+WORKDIR /root/Flash-Bot
 
-COPY ./root/Lightning-Bot
+COPY ./root/Flash-Bot
 
 RUN yarn install
 
