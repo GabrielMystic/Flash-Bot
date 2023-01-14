@@ -16,13 +16,13 @@ global.prems = ['5493491456806'],
    
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga Lightning-Bot
-//Add the language you want Lightning-Bot to have
+//Agrega el Idioma que quieres que tenga Flash-Bot
+//Add the language you want Flash-Bot to have
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = es  //Idioma de LightningBot, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de FlashBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ 
 
@@ -97,7 +97,7 @@ global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
+global.packname = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 ⚡'
 global.author = '𝙂𝙖𝙗𝙧𝙞𝙚𝙡 ⚝'
 
 //━━━━━━━━━━━━━━━━━━━━ 
@@ -108,7 +108,7 @@ global.author = '𝙂𝙖𝙗𝙧𝙞𝙚𝙡 ⚝'
 global.vs = '1.5.1 ⚡'
 global.version = vs
 
-global.gt = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
+global.gt = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 ⚡'
 global.lightningbot = gt
 
 global.yt = ''
@@ -117,10 +117,10 @@ global.youtube = yt
 global.ig = 'https://www.instagram.com/gabrielacosta_15'
 global.gabrielig = ig
 
-global.md = 'https://github.com/asokfnasasf/Lightning-Bot'
+global.md = 'https://github.com/GabrielMystic/Flash-Bot'
 global.lightningbot = md
 
-global.nna = 'https://chat.whatsapp.com/Km33ErOqSis1ELpKaHA8u9' // Lightning-Bot ⚡
+global.nna = 'https://chat.whatsapp.com/Km33ErOqSis1ELpKaHA8u9' // Flash-Bot ⚡
 global.nna2 = ''
 
 global.nn = '' //Grupo 1
@@ -142,7 +142,7 @@ global.donar = paypal
 
 global.asistencia = 'Wa.me/48732087124' //Dudas? escríbeme...
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
 
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
@@ -174,8 +174,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 : 𝙂𝙖𝙗𝙧𝙞𝙚𝙡 ⚝'
-global.igfg = '𝙇𝙞𝙜𝙝𝙩𝙣𝙞𝙣𝙜-𝘽𝙤𝙩 ⚡'
+global.wm = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 : 𝙂𝙖𝙗𝙧𝙞𝙚𝙡 ⚝'
+global.igfg = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 ⚡'
 global.wait = '*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando | Charging..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*'
@@ -346,7 +346,7 @@ global.rpg = {
       kambing: '🐐 Cabra : Goat',
       kerbau: '🐃 Búfalo : Buffalo',
       lion: '🦁 León : Lion',
-      money: lenguajeGB.eLightCoins(),
+      money: lenguajeGB.eFlashCoins(),
       monyet: '🐒 Mono : Monkey',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente : Snake',
@@ -410,7 +410,7 @@ global.rpgshop = { //Tienda
     let emottt = {
       exp: lenguajeGB.eExp(), limit: lenguajeGB.eDiamante(), diamond: lenguajeGB.eDiamantePlus(), joincount: lenguajeGB.eToken(),
       emerald: lenguajeGB.eEsmeralda(), berlian: lenguajeGB.eJoya(), kyubi: lenguajeGB.eMagia(), gold: lenguajeGB.eOro(),
-      money: lenguajeGB.eLightCoins(), tiketcoin: lenguajeGB.eLightTickets(), stamina: lenguajeGB.eEnergia(),
+      money: lenguajeGB.eFlashCoins(), tiketcoin: lenguajeGB.eFlashTickets(), stamina: lenguajeGB.eEnergia(),
             
       potion: lenguajeGB.ePocion(), aqua: lenguajeGB.eAgua(), trash: lenguajeGB.eBasura(), wood: lenguajeGB.eMadera(),
       rock: lenguajeGB.eRoca(), batu: lenguajeGB.ePiedra(), string: lenguajeGB.eCuerda(), iron: lenguajeGB.eHierro(),
