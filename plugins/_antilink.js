@@ -13,7 +13,7 @@ if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply(`${lengua
 if (chat.antiLink && isGroupLink && !isAdmin) {
 if (isBotAdmin) {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
-if (m.text.includes(linkThisGroup)) return !0
+if (m.text.includes(linkhThisGroup)) return !0
 }    
 await conn.sendButton(m.chat, `${lenguajeGB['smsEnlaceWat']()} ${await this.getName(m.sender)} ${isBotAdmin ? '' : `\n\n${lenguajeGB['smsAllAdmin']()}`}`, wm, [`${lenguajeGB['smsApagar']()}`, '/disable antilink'], m)    
 if (isBotAdmin) {
