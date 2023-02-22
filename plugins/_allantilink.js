@@ -7,7 +7,7 @@ const isLinkIg = /instagram.com/i
 const isLinkTw = /twitter.com/i 
 
 export async function before(m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }) {
-let enlace = { contextInfo: { externalAdReply: {title: wm, body: 'support group' , sourceUrl: nnna, thumbnail: await(await fetch(img)).buffer() }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm, body: 'support group' , sourceUrl: nna, thumbnail: await(await fetch(img)).buffer() }}}
 let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: lenguajeGB.smsTextoYT(), thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]    
 
