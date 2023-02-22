@@ -15,7 +15,7 @@ let b = a[Math.floor(Math.random() * a.length)]
 let sap = ['Hai', 'Ohayo', 'Kyaa', 'Halo', 'Nyann']
 let sgh = md
 let sgc = nnn
-let gata = 'https://i.imgur.com/EXTbyyn.jpg'
+let flash = 'https://i.imgur.com/EXTbyyn.jpg'
 //let logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
 let pp = await conn.profilePictureUrl(who).catch(_ => flash)
 //pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/grupos.jpg' 
@@ -65,7 +65,7 @@ global.frep = { contextInfo: { externalAdReply: {title: wm, body: author, source
 //let vid = 'https://blogscvc.cervantes.es/martes-neologico/wp-content/uploads/sites/2/2021/08/gif_350.gif'
 //let vid = './media/menus/Menuvid1.mp4'
 	
-/*let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(gataMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}	
+/*let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(flashMenu.getRandom())).buffer(), sourceUrl: redesMenu.getRandom() }}}	
 let sipp = await conn.resize(pp, 150, 150)
 let fakes = { key: { participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' }, message: { documentMessage: { title: wm, jpegThumbnail: sipp}}}*/
 //LA FUNCIÓN DE fakes Y adReply CREA UN DINÁMICO DE DOBLE DISEÑO PARA sendButton Y sendButtonVid
