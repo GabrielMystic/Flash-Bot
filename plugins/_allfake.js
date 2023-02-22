@@ -1,5 +1,5 @@
-//ESTOS DISEÑOS PARA MENSAJES SON COMPATIBLES CON GATABOT, SIN EMBARGO ALGUNOS NO SE VEN EN LA VERSIÓN DE WHATSAPP WEB
-//PERO EN EL CELULAR SI SE NOTA TODOS, PUEDES USAR EL QUE QUIERAS 😼
+//ESTOS DISEÑOS PARA MENSAJES SON COMPATIBLES CON FLASHBOTT, SIN EMBARGO ALGUNOS NO SE VEN EN LA VERSIÓN DE WHATSAPP WEB
+//PERO EN EL CELULAR SI SE NOTA TODOS, PUEDES USAR EL QUE QUIERAS 
 import { generateWAMessageFromContent } from "@adiwajshing/baileys"
 import fs from 'fs'
 import fetch from 'node-fetch'
@@ -17,13 +17,13 @@ let sgh = md
 let sgc = nnn
 let gata = 'https://i.imgur.com/EXTbyyn.jpg'
 //let logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2d1.jpg'
-let pp = await conn.profilePictureUrl(who).catch(_ => gata)
+let pp = await conn.profilePictureUrl(who).catch(_ => flash)
 //pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => null) || './src/grupos.jpg' 
 
 global.enlace = { contextInfo: { externalAdReply: {title: wm, body: 'support group' , sourceUrl: nna, thumbnail: await(await fetch(img)).buffer() }}}
 //PARA ENLACE DE WHATSAPP	
 	
-global.enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
+global.enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '🔥 𝗦𝘂𝗽𝗲𝗿 𝑭𝒍𝒂𝒔𝒉-𝑩𝒐𝒕', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 //PARA ENLACE DE YOUTUBE	
 	
 global.fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
