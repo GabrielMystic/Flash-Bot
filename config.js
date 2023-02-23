@@ -120,7 +120,7 @@ global.gabrielig = ig
 global.md = 'https://github.com/GabrielMystic/Flash-Bot'
 global.flashbot = md
 
-global.nna = 'https://chat.whatsapp.com/Km33ErOqSis1ELpKaHA8u9' // Flash-Bot ⚡
+global.nna = 'https://chat.whatsapp.com/FWQAtXLfdwW9fnRrEqDHfL' // Flash-Bot ⚡
 global.nna2 = ''
 
 global.nn = '' //Grupo 1
