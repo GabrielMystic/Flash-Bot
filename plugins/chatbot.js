@@ -7,7 +7,7 @@ if (/^e$/i.test(m.text) ) { //sem prefixo
 
 }
 
-if (/^¿que es un bot?|Que es un bot|que es un bot?|q es un bot|q es un bot?|Q es un bot|Q es un bot?|Que es un bot?||$/i.test(m.text) ) { //sem prefixo
+if (/^¿que es un bot?|Que es un bot|que es un bot?|q es un bot|q es un bot?|Q es un bot|Q es un bot?|Que es un bot?$/i.test(m.text) ) { //sem prefixo
     conn.reply(m.chat, `╭┄〔 *${wm}* 〕┄⊱
 ┆ ——————«•»——————
 ┆ ☆::¿𝐐𝐮𝐞́ 𝐞𝐬 𝐮𝐧 𝐁𝐨𝐭 𝐝𝐞 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩?::☆*
