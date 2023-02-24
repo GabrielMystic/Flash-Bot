@@ -37,17 +37,3 @@ return !0 }
 function somematch( data, id ){
 let res = data.find(el => el === id )
 return res ? true : false; }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
