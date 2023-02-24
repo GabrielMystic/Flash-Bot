@@ -1177,8 +1177,8 @@ export async function handler(chatUpdate) {
 
                let hl = _prefix 
                 let adminMode = global.db.data.chats[m.chat].modoadmin
-                let gata = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
-                if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && gata) return   
+                let flash = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
+                if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && flash) return   
 
                if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { // Both Owner
                     fail('owner', m, this)
@@ -1491,7 +1491,7 @@ let msg = {
 }[type]
 //if (msg) return m.reply(msg)
 let tg = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 centergatabot.gmail.com'].getRandom(), thumbnail: gataImg.getRandom(), sourceUrl: [md, yt, ig, paypal, fb].getRandom() }}}}, tg)
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: lenguajeGB.smsAvisoAG().slice(0,-2), body: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', 'p'].getRandom(), thumbnail: flashImg.getRandom(), sourceUrl: [md, ig].getRandom() }}}}, tg)
 if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
 }
 
