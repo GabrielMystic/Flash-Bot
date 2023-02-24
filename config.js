@@ -8,8 +8,8 @@ import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-['5493491456806', '', true], 
-['', '', true],
+['5493491456806', '𝘾𝙧𝙚𝙖𝙙𝙤𝙧🐐', true], 
+['37166667482', '𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖🤖', true],
 [''],
 ['']]
 
@@ -28,7 +28,7 @@ global.prems = ['5493491456806'],
 
 global.lenguajeGB = es  //Idioma de Flash-Bot, Ejemplo: es | en | pt...
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+//━━━━━━━━━━━━━━━━━━━━ 
 
 
 global.APIs = { // API Prefix. 
