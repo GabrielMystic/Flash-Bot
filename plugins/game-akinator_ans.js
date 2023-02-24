@@ -1,4 +1,4 @@
-mport fetch from 'node-fetch'
+import fetch from 'node-fetch'
 import translate from '@vitalets/google-translate-api'
 const teks = '*0 - Sí*\n*1 - No*\n*2 - No sé*\n*3 - Probablemente sí*\n*4 - Probablemente no*\n*5 - Volver a la pregunta anterior*'
 export async function before(m) {
