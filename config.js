@@ -6,25 +6,29 @@ import fs from 'fs'
 import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js' 
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
+
 global.owner = [
-  ['5493491456806', 'Creador ⚡', true],
-  ['371 66 667 482', 'asistencia 🤓', true]]
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+['5493492456806', '', true], 
+['', '', true],
+[''],
+['']]
+
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 global.mods = [] 
 global.prems = ['5493491456806'], 
    
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga Flash-Bot
+//Agrega el Idioma que quieres que tenga GataBot-MD
 //Add the language you want Flash-Bot to have
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب  
 
-global.lenguajeGB = es  //Idioma de FlashBot, Ejemplo: es | en | pt...
+global.lenguajeGB = es  //Idioma de Flash-Bot, Ejemplo: es | en | pt...
 
-//━━━━━━━━━━━━━━━━━━━━ 
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 global.APIs = { // API Prefix. 
@@ -57,9 +61,13 @@ global.APIs = { // API Prefix.
   neoxr: 'https://neoxr-api.herokuapp.com',
   ana: 'https://anabotofc.herokuapp.com/',
   kanx: 'https://kannxapi.herokuapp.com/',
+  nekobot: 'https://nekobot.xyz/api/',
+  purrbot: 'https://purrbot.site/api/',
   dhnjing: 'https://dhnjing.xyz',
   'https://violetics.pw': 'beta'
 },
+  
+global.Key360 = '964f-0c75-7afc'
   
 global.APIKeys = { // APIKey Here
   //⊱ ━━━━━.⋅ 'https://website': 'apikey' ⋅.━━━━ ⊰
@@ -82,45 +90,25 @@ global.APIKeys = { // APIKey Here
   'https://anabotofc.herokuapp.com/': 'AnaBot'
 }
 
-global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
-
-//⊱ ━━━━━.⋅ KEY ⋅.━━━━ ⊰
-
-global.Key360 = ['964f-0c75-7afc'] //keys ephoto360
-//global.beta = ['https://violetics.pw'] //keys ephoto360
-
-global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
-global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
-
-//━━━━━━━━━━━━━━━━━━━━ 
-
-
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 ⚡'
-global.author = '𝙂𝙖𝙗𝙧𝙞𝙚𝙡 ⚝'
-
-//━━━━━━━━━━━━━━━━━━━━ 
-
+global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈'
+global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = '1.5.1 ⚡'
-global.version = vs
+global.vs = '1.4.5'
+global.vsJB = '2.0'
 
-global.gt = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 ⚡'
-global.flashbot = gt
-
+global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
 global.yt = ''
-global.youtube = yt
-
+global.yt2 = ''
 global.ig = 'https://www.instagram.com/gabrielacosta_15'
-global.gabrielig = ig
-
 global.md = 'https://github.com/GabrielMystic/Flash-Bot'
-global.flashbot = md
+global.fb = ''
 
-global.nna = 'https://chat.whatsapp.com/FWQAtXLfdwW9fnRrEqDHfL' // Flash-Bot ⚡
+
+global.nna = '' //UPDATE FLASHBOT
 global.nna2 = ''
 
 global.nn = '' //Grupo 1
@@ -137,12 +125,13 @@ global.nnnttt2 = '' //Grupo 6 COL
 
 global.nnnttt3 = '' //Grupo 7 COL
 
+global.nnnttt4 = '' //Grupo 8 COL
+
 global.paypal = ''
-global.donar = paypal
 
-global.asistencia = 'Wa.me/48732087124' //Dudas? escríbeme...
+global.asistencia = 'Wa.me/18059196237' //Dudas? escríbeme...
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
@@ -174,13 +163,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 : 𝙂𝙖𝙗𝙧𝙞𝙚𝙡 ⚝'
-global.igfg = '𝙁𝙡𝙖𝙨𝙝-𝘽𝙤𝙩 ⚡'
+global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
 global.wait = '*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando | Charging..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*'
 global.waitttt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*'
-global.nomorown = '48732087124'
+global.nomorown = '593993684821'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -188,11 +177,35 @@ global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.pre
 
 //━━━━━━━━━━━━━━lolkeys━━━━━━━━━
 
-global.lolkeys = ['2e0da1f78d1721134b21816d', '902c3bc9d8c08b0dcf8f5373', '808693688ecc695293359089', '85faf717d0545d14074659ad']
-//global.lolkeysapi = lolkeys[Math.floor(lolkeys.length * Math.random())]
+global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
+// 'fiktod' 'BF39D349845E' '675e34de8a' '0b917b905e6f'
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
+global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
+global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
+global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
+global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['BrunoSobrino']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
+
+//⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
+
+global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
+global.imagen2 = fs.readFileSync('./media/menus/img1.jpg')
+global.imagen3 = fs.readFileSync('./media/menus/img2.jpg')
+global.imagen4 = fs.readFileSync('./media/menus/img3.jpg')
+global.imagen5 = fs.readFileSync('./media/menus/img4.jpg')
+global.imagen6 = fs.readFileSync('./media/menus/img5.jpg')
+global.imagen7 = fs.readFileSync('./media/menus/img6.jpg')
+global.imagen8 = fs.readFileSync('./media/menus/img7.jpg')
+global.imagen9 = fs.readFileSync('./media/menus/img8.jpg')
+global.imagen10 = fs.readFileSync('./media/menus/img9.jpg')
+global.imagen11 = fs.readFileSync('./media/menus/img10.jpg')
+global.imagen12 = fs.readFileSync('./media/menus/img11.jpg')
+global.imagen13 = fs.readFileSync('./media/menus/img12.jpg')
+
+//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
@@ -216,9 +229,16 @@ global.img13 = 'https://i.imgur.com/pCfFOgw.jpeg'
 global.img14 = 'https://i.imgur.com/knBDWRA.jpeg'
 global.img15 = 'https://i.imgur.com/QrkkKx7.jpeg'
 
-global.redesMenu = [nna, nn, nnn, nnnt, nnntt, nnnttt, md, ig, paypal, yt]
-global.flashMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15]
-global.flashVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
+global.img16 = 'https://i.imgur.com/11MRjo4.jpeg' //+18
+
+global.img17 = 'https://i.imgur.com/JpYfcH0.jpeg'
+global.img18 = 'https://i.imgur.com/9yLH4W4.jpeg'
+
+global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
+global.redesMenu = [nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt2, nnnttt3, nnnttt4, md, ig, paypal, yt, asistencia, fb]
+global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
+global.gataVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
+global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -266,7 +286,8 @@ global.fgif = {
                               }
                              }
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
 
 global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
 
@@ -346,7 +367,7 @@ global.rpg = {
       kambing: '🐐 Cabra : Goat',
       kerbau: '🐃 Búfalo : Buffalo',
       lion: '🦁 León : Lion',
-      money: lenguajeGB.eFlashCoins(),
+      money: lenguajeGB.eGataCoins(),
       monyet: '🐒 Mono : Monkey',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente : Snake',
