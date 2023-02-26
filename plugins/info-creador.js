@@ -18,10 +18,10 @@ let name = await conn.getName(m.sender)
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
 let teksbio = `
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-*https://instagram.com/gabrielacosta_15*
+𝗙𝗹𝗮𝘀𝗵-𝗕𝗼𝘁 ⚡
+*es.me/5493491456806*
 *---------------------*
-𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+𝗚𝗔𝗕𝗥𝗜𝗘𝗟 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
 *${asistencia}*
 `
   let teks = ' '
