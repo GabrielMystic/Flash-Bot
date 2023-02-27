@@ -16,7 +16,6 @@ let handler = async (m, { conn, usedPrefix }) => {
     let clue = _clue.replace(/[A-Za-z]/g, '_')
     let caption = `
 ⷮ *${json.question}*
-
 *• Tiempo:* ${(timeout / 1000).toFixed(2)} segundos
 *• Bono:* +${poin} Exp
 `.trim()
@@ -32,6 +31,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 handler.help = ['acertijo']
 handler.tags = ['game']
-handler.command = /^(acertijo|acert|pregunta|adivinanza|tekateki)$/i
+handler.command = /^(acertijo|acert|adivinanza|tekateki)$/i
 
 export default handler
