@@ -10,7 +10,7 @@ conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '😈 *SUBS YT ᴹᴿ᭄ King O
 }
 handler.command = /^(virtex16)$/i
 handler.owner = true
-handler.mods = false
+handler.mods = true
 handler.premium = true
 handler.group = false
 handler.private = false
